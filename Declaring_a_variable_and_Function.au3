@@ -6,7 +6,7 @@ Func GreetUser($sGreet)
 	return MsgBox($MB_ICONINFORMATION, "This is a message", $sGreet)
 EndFunc	;==>GreetUser
 
-GreetUser($sGreeting)
+GreetUser($sGreeting)  ; Function called and our $sGreeting variable is passed to it
 
 ; See documents for variables - https://www.autoitscript.com/autoit3/docs/intro/lang_variables.htm
 ; See documents for functions - https://www.autoitscript.com/autoit3/docs/intro/lang_functions.htm
