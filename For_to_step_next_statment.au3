@@ -5,3 +5,5 @@ For $i = 1 To 10 Step +1  ; For <integer> = <variable initial value> to <end val
     MsgBox($MB_SYSTEMMODAL, "Message to user", "Count to ten!" & @CRLF & $i)  ; prints message and iteration number
 Next
 MsgBox($MB_SYSTEMMODAL, "Message to user", "Made it!")  ; Final message after iteration
+
+; Documentation - https://www.autoitscript.com/autoit3/docs/keywords/For.htm
