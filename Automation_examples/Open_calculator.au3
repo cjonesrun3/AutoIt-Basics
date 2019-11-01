@@ -1,3 +1,4 @@
+; Opens up the old Windows calculator and conducts the following 2+2=4
 run("win32calc.exe")
 Local $hWnd = WinWait("[CLASS:CalcFrame]", "", 5)
 WinActive($hWnd)
