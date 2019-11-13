@@ -1,5 +1,5 @@
 #include <MsgBoxConstants.au3>
-#include <FileConstants.au3>
+#include <FileConstants.au3>  ; Must be included to use $FC_OVERWRITE
 
 $sPathToUsersDirectory = @DesktopDir  ; Returns default path to user's desktop
 $sDesiredNameOfNewDirectory = "MyDirectory"  ; Add the desired directory name
@@ -33,3 +33,5 @@ if @error then
 else
 	CopyDirectory($sPathToDirectoryBeingMoved, $sPathToDestination, $sNewDirName) ; Function call
 EndIf
+
+; Documnetation - https://www.autoitscript.com/autoit3/docs/functions/DirCopy.htm
